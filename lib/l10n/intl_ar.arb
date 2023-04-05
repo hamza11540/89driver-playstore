@@ -180,7 +180,7 @@
       }
     }
   },
-  "valueAdditionalBaseDistance": "القيمة لكل {مسافة وحدة} إضافية من المسافة الأساسية",
+
   "@valueAdditionalBaseDistance": {
     "placeholders": {
       "distanceUnit": {

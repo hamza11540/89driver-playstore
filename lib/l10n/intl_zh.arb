@@ -172,7 +172,7 @@
       }
     }
   },
-  "returnDistance": "返回{距离单位\n  }",
+
   "@returnDistance": {
     "placeholders": {
       "distanceUnit": {

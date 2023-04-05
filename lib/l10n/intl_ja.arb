@@ -172,7 +172,7 @@
       }
     }
   },
-  "returnDistance": "{距離単位} を返す",
+
   "@returnDistance": {
     "placeholders": {
       "distanceUnit": {
@@ -188,7 +188,7 @@
       }
     }
   },
-  "enterDistanceValue": "{距離単位} の値を入力してください",
+
   "@enterDistanceValue": {
     "placeholders": {
       "distanceUnit": {
@@ -196,7 +196,7 @@
       }
     }
   },
-  "distanceValue": "{距離単位} 値",
+
   "@distanceValue": {
     "placeholders": {
       "distanceUnit": {
