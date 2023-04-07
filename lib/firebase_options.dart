@@ -32,6 +32,16 @@ class DefaultFirebaseOptions {
           'DefaultFirebaseOptions have not been configured for macos - '
           'you can reconfigure this by running the FlutterFire CLI again.',
         );
+      case TargetPlatform.windows:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for windows - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
+      case TargetPlatform.linux:
+        throw UnsupportedError(
+          'DefaultFirebaseOptions have not been configured for linux - '
+          'you can reconfigure this by running the FlutterFire CLI again.',
+        );
       default:
         throw UnsupportedError(
           'DefaultFirebaseOptions are not supported for this platform.',
@@ -40,21 +50,20 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyCeDRu7NFLpTcaIl-v0AFX_Y85Xh8uN938',
-    appId: '1:21434577467:android:dd343b03336d8f5fd1a21e',
-    messagingSenderId: '21434577467',
-    projectId: 'ride-man-cd318',
-    storageBucket: 'ride-man-cd318.appspot.com',
+    apiKey: 'AIzaSyC38c-jpmJAnWu5xddnOzo1U8Fln5m5Jzo',
+    appId: '1:894976499984:android:560eb4ee81ea35f060c595',
+    messagingSenderId: '894976499984',
+    projectId: 'rider-8704e',
+    storageBucket: 'rider-8704e.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyDRZzSV9n3npRcXFOakFoC5iOPuOOCWhG8',
-    appId: '1:21434577467:ios:f07dc266d06d2e77d1a21e',
-    messagingSenderId: '21434577467',
-    projectId: 'ride-man-cd318',
-    storageBucket: 'ride-man-cd318.appspot.com',
-    iosClientId:
-        '21434577467-mp0rbcsfgs7hcepjeb6m453lqrgf89od.apps.googleusercontent.com',
-    iosBundleId: 'br.com.carvs.rideman',
+    apiKey: 'AIzaSyA-tI4Xh5_P_BlA_1E_aYhBWYKwCQRdpTM',
+    appId: '1:894976499984:ios:f449549137ddd9e960c595',
+    messagingSenderId: '894976499984',
+    projectId: 'rider-8704e',
+    storageBucket: 'rider-8704e.appspot.com',
+    iosClientId: '894976499984-i8qnng455846bh5dp5krpik6rloteqdj.apps.googleusercontent.com',
+    iosBundleId: 'com.skttech.eightyninedriver',
   );
 }
